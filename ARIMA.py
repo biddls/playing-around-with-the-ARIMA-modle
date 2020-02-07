@@ -166,5 +166,3 @@ df = df.drop(columns=["year","week","ma"]) #dopping unused data
 df.columns = ["Count"] #tidying
 df_log_shifted, df_log = EDA(df)
 fit_and_plot()
-
-#most of this code i understand whats going on, i canot figure out how to apply gauian process here (even asked my lecturesers)
